@@ -329,7 +329,7 @@ body {
   height: 100%;
 }
 .wrapper {
-  background-color: lightgray;
+  background-color: lightgrey;
   width: 1000px;
   margin: 5px auto;
   padding: 20px;
@@ -394,10 +394,19 @@ header h3 {
 }
 header h1 {
   font-size: 3rem;
-  text-decoration: underline;
+  width: 100%;
 }
 header h4 {
   margin-left: 20px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  margin: -5px 10px;
+  padding: auto 0;
+}
+header a:hover {
+  color: black;
 }
 @media screen and (max-width: 500px) {
   header {
